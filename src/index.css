@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.cardOrder {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.confettiWrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+[class|="confetti"] {
+  position: absolute;
+}
+
+.red {
+  background-color: #E94A3F;
+}
+
+.yellow {
+  background-color: #FAA040;
+}
+
+.blue {
+  background-color: #5FC9F5;
+}
